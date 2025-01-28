@@ -6,6 +6,7 @@ This paper proposes video-SALMONN-o1, the first open-source reasoning-enhanced a
 Additionally, we introduce AVRBench, the first comprehensive audio-visual reasoning benchmark, featuring over 4,000 high-quality, expert-curated question-answer pairs across scenarios such as standup comedy, academic presentations, and synthetic video detection. video-SALMONN-o1 achieves 3-8% accuracy improvements over the LLaVA-OneVision baseline across different video reasoning benchmarks. Besides, process DPO achieves 6-8% improvements compared to the SFT-only model. Furthermore, enhanced reasoning enables video-SALMONN-o1 zero-shot synthetic video detection capabilities.
 
 ## Demo Videos
+---
 [Figure 13 Video](video/standup_1.mp4)
 
 **Question**:
@@ -24,6 +25,7 @@ Answer the question step by step. Output each thinking step.
 4. Therefore, the speaker implies that when you want to eat, just eat and don't prioritize calories.
 5. The answer is B
 
+---
 [Figure 14 Video](video/videomme_1.mp4)
 
 **Question**:
@@ -41,6 +43,7 @@ Answer the question step by step.
 4. When the legend is hit by the turret, there is a burst of fire.
 5. Therefore, the answer is **D. Fire**.
 
+---
 [Figure 15 Video](video/videomme_2.mp4)
 
 **Question**:
@@ -58,6 +61,7 @@ Answer the question step by step.
 4. However, the video does not show the moon.
 5. Therefore, the answer is **B. Moon**.
 
+---
 [Figure 16 Video](video/synth_1.mp4)
 
 **Question**:
@@ -73,6 +77,7 @@ An AI-generated video contains unnatural distorted things, such as distorted han
 7. Therefore, based on the visual cues of the video, it is likely that the video is AI generated. 
 8. So the answer is YES.
 
+---
 [Figure 17 Video](video/synth_2.mp4)
 
 **Question**:
