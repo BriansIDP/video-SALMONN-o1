@@ -10,25 +10,21 @@ Additionally, we introduce AVRBench, the first comprehensive audio-visual reason
 
 ## RivaBench Demo Samples
 ---
-[Medical Example](video/medical_example_clip.mp4)
+[Medical Example](video/medical_example_2_clip.mp4)
 
 **Question**:
-How does the twin study isolate TBI's impact on dementia risk? Choose from:\
-A. By analyzing twins with inconsistent timing of onset of TBI and dementia.\
-B. By excluding early life exposures from the study.\
-C. By observing the progression of dementia in twins without TBI.\
-D. By ensuring differences in dementia risk are due to TBI.\
-E. By focusing only on Alzheimer's dementia outcomes.\
+What might the clonal expansion of CD8 T cells and the infrequency of Tregs suggest about their roles and timing in preventing fetal rejection? Choose from:\
+A. Tregs are crucial early and diminish later.\
+B. CD8 T cells are ineffective in the placenta.\
+C. Tregs have a minor role throughout pregnancy.\
+D. Tregs' role becomes significant later.\
+E. CD8 T cells cease to expand later.
 
 **Answer**
-A. By analyzing twins with inconsistent timing of onset of TBI and dementia.
+D. Tregs' role becomes significant later.
 
 **Explain**:
-The increased risk of "all-cause dementia" and "non-Alzheimer's dementia" mentioned in the slides suggests an association between TBI and an increased risk of dementia, particularly non-Alzheimer's type dementia.
-
-To further test whether this association is causal, the researchers may have employed a variety of methods, including adjusting for confounders and using statistical techniques such as propensity score matching. With these methods, they can enhance the reliability of the findings and allow us to conclude with more confidence that TBI does indeed increase the risk of dementia.
-
-Taken together, the twin study effectively isolated the effect of TBI on dementia risk by controlling for genetic and early life risk factors. By analyzing inconsistent pairs, researchers can more accurately assess the association between TBI and dementia, thereby providing a scientific basis for prevention and intervention.
+The speech notes that while CD8 T cells show clonal expansion in the decidua, CD4 T cells and Tregs are not highly frequent or clonally expanded at the early pregnancy stage studied. This suggests that Tregs may play a more crucial role later in pregnancy, possibly in immunomodulation after tissue remodeling.
 
 ---
 [Math Example](video/math_example_clip.mp4)
