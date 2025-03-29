@@ -10,68 +10,46 @@ Additionally, we introduce AVRBench, the first comprehensive audio-visual reason
 
 ## RivaBench Demo Samples
 ---
-[Medical Example](video/medical_example_2_clip.mp4)
+[Medical Example](video/medical_example_clip.mp4)
 
 **Question**:
-What might the clonal expansion of CD8 T cells and the infrequency of Tregs suggest about their roles and timing in preventing fetal rejection? Choose from:\
-A. Tregs are crucial early and diminish later.\
-B. CD8 T cells are ineffective in the placenta.\
-C. Tregs have a minor role throughout pregnancy.\
-D. Tregs' role becomes significant later.\
-E. CD8 T cells cease to expand later.
+How does the twin study isolate TBI's impact on dementia risk? Choose from:\
+A. By analyzing twins with inconsistent timing of onset of TBI and dementia.\
+B. By excluding early life exposures from the study.\
+C. By observing the progression of dementia in twins without TBI.\
+D. By ensuring differences in dementia risk are due to TBI.\
+E. By focusing only on Alzheimer's dementia outcomes.
 
 **Answer**
-D. Tregs' role becomes significant later.
+A. By analyzing twins with inconsistent timing of onset of TBI and dementia.
 
 **Explain**:
-The speech notes that while CD8 T cells show clonal expansion in the decidua, CD4 T cells and Tregs are not highly frequent or clonally expanded at the early pregnancy stage studied. This suggests that Tregs may play a more crucial role later in pregnancy, possibly in immunomodulation after tissue remodeling.
+The increased risk of "all-cause dementia" and "non-Alzheimer's dementia" mentioned in the slides suggests an association between TBI and an increased risk of dementia, particularly non-Alzheimer's type dementia.
+
+To further test whether this association is causal, the researchers may have employed a variety of methods, including adjusting for confounders and using statistical techniques such as propensity score matching. With these methods, they can enhance the reliability of the findings and allow us to conclude with more confidence that TBI does indeed increase the risk of dementia.
+
+Taken together, the twin study effectively isolated the effect of TBI on dementia risk by controlling for genetic and early life risk factors. By analyzing inconsistent pairs, researchers can more accurately assess the association between TBI and dementia, thereby providing a scientific basis for prevention and intervention.
 
 ---
-[Math Example](video/math_example_clip.mp4)
+[Math Example](video/math_example_2_clip.mp4)
 
 **Question**:
-Using Euler's method, compute y at x1, x2, and x3 for y' = x + y, y(0) = 1, h = 0.1? Choose from:\
-A. y(x1) $\approx$ 1.1, y(x2) $\approx$ 1.22, y(x3) $\approx$ 1.362\
-B. y(x1) $\approx$ 1.1, y(x2) $\approx$ 1.19, y(x3) $\approx$ 1.281\
-C. By(x1) $\approx$ 1.05, y(x2) $\approx$ 1.11, y(x3) $\approx$ 1.165\
-D. y(x1) $\approx$ 0.9, y(x2) $\approx$ 0.99, y(x3) $\approx$ 1.088\
-E. y(x1) $\approx$ 1.2, y(x2) $\approx$ 1.33, y(x3) $\approx$ 1.473
+Why does the maximum of $w(x,t)$ occur on the boundary of $\Omega_T$ and not inside, given $w_t - w_{xx} \leq 0$? Choose from:\
+A. The boundary values always increase over time.\
+B. The function w(x,t) can only decrease or remain constant inside the domain.\
+C. The function is constrained by the initial and boundary conditions, making it impossible for the maximum to occur inside.\
+D. The maximum principle allows peaks only at t=0.\
+E. The differential inequality implies w is inversely proportional to time inside the domain.
 
 **Answer**
-A. y(x1) $\approx$ 1.1, y(x2) $\approx$ 1.22, y(x3) $\approx$ 1.362
+B. The function w(x,t) can only decrease or remain constant inside the domain.
 
 **Explain**:
-Euler's method is a numerical method to solve first-order ordinary differential equations (ODEs) with a given initial value. The method provides an approximation to the solution of the ODE at a series of points.
+The maximum value of $w(x,t)$ occurs on the boundary of $\Omega_T$ and not inside because the given condition $w_t - w_{xx} \leq 0$ implies a dissipative process where the function value can only decrease or remain constant over time within the domain.
 
-The formula for Euler's method is:
-$y_{n+1} = y_n + h \cdot f(n, y_n)$
-Where:
-$y_{n+1}$ is the approximation of the solution at the next step. $y_n$ is the current approximation. $h$ is the step size. $f(n, y)$ is the derivative of the function at the current point. Given the differential equation:
-$y' = x + y$
+This is a fundamental aspect of the maximum principle for parabolic partial differential equations, which states that the maximum value of a function that satisfies this inequality cannot be achieved at any interior point of the domain; it must occur on the boundary.
 
-With the initial condition:
-$y(0) = 1$
-
-And a step size:
-$h = 0.1$
-
-We will compute the values of $y$ at $x_1 = 0.1$, $x_2 = 0.2$, and $x_3 = 0.3$.
-
-__Step 1__: Compute $y_1$ at $x_1 = 0.1$
-
-Initial condition: $y_0 = 1$ at $x_0 = 0$. $f(x_0, y_0) = x_0 + y_0 = 0 + 1 = 1$. $y_1 = y_0 + h \cdot f(x_0, y_0) = 1 + 0.1 \cdot 1 = 1.1$
-
-__Step 2__: Compute $y_2$ at $x_2 = 0.2$
-
-$y_1 = 1.1$ at $x_1 = 0.1$. $f(x_1, y_1) = x_1 + y_1 = 0.1 + 1.1 = 1.2$. $y_2 = y_1 + h \cdot f(x_1, y_1) = 1.1 + 0.1 \cdot 1.2 = 1.22$
-
-__Step 3__: Compute $y_3$ at $x_3 = 0.3$
-
-$y_2 = 1.22$ at $x_2 = 0.2$. $f(x_2, y_2) = x_2 + y_2 = 0.2 + 1.22 = 1.42$. $y_3 = y_2 + h \cdot f(x_2, y_2) = 1.22 + 0.1 \cdot 1.42 = 1.362$
-
-__Final Approximations__
-
-$y_1 \approx 1.1$ at $x_1 = 0.1$. $y_2 \approx 1.22$ at $x_2 = 0.2$. $y_3 \approx 1.362$ at $x_3 = 0.3$.
+This is because the inequality restricts the function from increasing over time within the domain, thus pushing any potential maximum to the boundary where initial or boundary conditions are imposed.
 
 ## Demo Videos
 ---
