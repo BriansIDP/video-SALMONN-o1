@@ -5,6 +5,37 @@ While recent advancements in reasoning optimization have significantly enhanced 
 This paper proposes video-SALMONN-o1, the first open-source reasoning-enhanced audio-visual LLM designed for general video understanding tasks. To enhance its reasoning abilities, we develop a reasoning-intensive dataset featuring challenging audio-visual questions with step-by-step solutions. We also propose the process direct preference optimization (DPO), which leverages contrastive step selection to achieve efficient step-level reward modeling tailored for multimodal inputs. 
 Additionally, we introduce AVRBench, the first comprehensive audio-visual reasoning benchmark, featuring over 4,000 high-quality, expert-curated question-answer pairs across scenarios such as standup comedy, academic presentations, and synthetic video detection. video-SALMONN-o1 achieves 3-8% accuracy improvements over the LLaVA-OneVision baseline across different video reasoning benchmarks. Besides, process DPO achieves 6-8% improvements compared to the SFT-only model. Furthermore, enhanced reasoning enables video-SALMONN-o1 zero-shot synthetic video detection capabilities.
 
+<div style='display:flex; gap: 0.25rem; '>
+<a href='https://arxiv.org/abs/2502.11775'><img src='https://img.shields.io/badge/arXiv-PDF-red'></a>
+<a href='https://huggingface.co/BrianatCambridge/video-SALMONN-o1'><img src='https://img.shields.io/badge/huggingface-checkpoint-yellow'></a> 
+</div>
+
+
+## Inference
+```
+cd videosalmonno1
+bash run_inference.sh
+# some specific dependencies
+# decord==0.6.0
+# torch==2.1.0
+# ffmpeg-python
+# transformers==4.39.2
+# accelerate==0.28.0
+```
+
+## Reference
+```
+@inproceedings{
+  sun2025videosalmonno1,
+  title={{video-SALMONN-o1}: Reasoning-enhanced Audio-visual Large Language Model},
+  author={Guangzhi Sun, Yudong Yang, Jimin Zhuang, Changli Tang, Yixuan Li, Wei Li, Zejun MA, Chao Zhang},
+  booktitle={ICML},
+  year={2025}
+}
+```
+
+## Demo
+
 ### Process DPO and Contrastive Rollout
 <img src="images/contrastiverollout.jpg" width="600">
 
@@ -136,11 +167,6 @@ An AI-generated video contains unnatural distorted things, such as distorted han
 4. Therefore, based on the smoothness of the scene and the unnatural alignment of the cyclist's shadow, it is highly likely that the video is AI generated. 
 5. So the answer is YES.
 
-## Model Checkpoint
-Coming soon...
-
 ## Training
 Coming soon...
 
-## Inference
-Coming soon...
