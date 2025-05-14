@@ -7,7 +7,8 @@ Additionally, we introduce AVRBench, the first comprehensive audio-visual reason
 
 <div style='display:flex; gap: 0.25rem; '>
 <a href='https://arxiv.org/abs/2502.11775'><img src='https://img.shields.io/badge/arXiv-PDF-red'></a>
-<a href='https://huggingface.co/BrianatCambridge/video-SALMONN-o1'><img src='https://img.shields.io/badge/huggingface-checkpoint-yellow'></a> 
+<a href='https://huggingface.co/BrianatCambridge/video-SALMONN-o1'><img src='https://img.shields.io/badge/huggingface-checkpoint-yellow'></a>
+<a href='https://huggingface.co/datasets/BrianatCambridge/RivaBench/tree/main'><img src='https://img.shields.io/badge/dataset-RivaBench-blue'></a> 
 </div>
 
 
